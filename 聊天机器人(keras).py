@@ -24,10 +24,6 @@ from keras.layers import RepeatVector, Dense, TimeDistributed
 # 为语料做分词处理
 def word_segment():
     #打开语料文本
-#     inputFile_NoSegment= open('./Users/xiachaozzia/数据分析/聊天机器人/data/chatterbot.txt','rb')
-#     outputFile_Segment = open('./Users/xiachaozzia/数据分析/聊天机器人/data/chatterbot_segment.txt',
-#                               'w', encoding='utf-8')
-    
     inputFile_NoSegment= open('./chatterbot.txt','rb')
     outputFile_Segment = open('./chatterbot_segment.txt','w', encoding='utf-8')
     
